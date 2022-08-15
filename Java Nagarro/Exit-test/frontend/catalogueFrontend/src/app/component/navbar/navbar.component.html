@@ -1,0 +1,35 @@
+
+<mat-toolbar color="primary">
+    <a routerLink="/" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>inventory2</mat-icon>
+    </a>
+    <span>EasyShop</span>
+    <span class="example-spacer"></span>
+    <a 
+    *ngIf="!isLoggedIn"
+    routerLink="/login" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" style="margin: left 20px; margin-right: 20px;">
+      Login
+    </a>
+    <a 
+    *ngIf="!isLoggedIn"
+    routerLink="/signup" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" style="margin: left 20px; margin-right: 20px;">
+        Register
+    </a>
+    
+    <a 
+    (click)="logout()"
+    *ngIf="isLoggedIn"
+   
+     mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" style="margin: left 20px; margin-right: 20px;">
+        Logout
+    </a>
+    <a 
+    
+    *ngIf="isLoggedIn && user"
+   
+     mat-icon-button class="example-icon favorite-icon" 
+     aria-label="Example icon-button with heart icon" 
+     style=" margin-right: 20px;"> 
+        {{login.getUser().username}}
+    </a>
+  </mat-toolbar>

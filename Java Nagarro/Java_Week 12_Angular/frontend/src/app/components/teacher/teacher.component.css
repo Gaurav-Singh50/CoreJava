@@ -1,0 +1,14 @@
+.upperdiv{
+    text-align: right;
+}
+.mainbody{
+    text-align: center;
+}
+.add-result{
+    border: solid 1px;
+    color: white;
+}
+
+.modal-body{
+    text-align: left;
+}

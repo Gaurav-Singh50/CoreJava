@@ -1,0 +1,39 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div>
+                    <img style="width: 500px;height: 400px;margin-top: 50px;" src={{product.imageUrl}} >
+                </div>
+                <h1 style="text-align: center;margin-top: 40px;">{{product.name}}</h1>
+                <h2 style="text-align: center;">Brand : {{product.brand}}</h2>
+                <h3 style="text-align: center;"><b>Product Description : </b>{{product.description}}</h3>
+                <h3 style="text-align: center;"><b>Product Price : </b>{{product.price}}</h3>
+                <h3 style="text-align: center;"><b>Product Category : </b>{{product.category}}</h3>
+
+                <mat-card style="margin-bottom: 50px;">
+                    <h2 class="text-center">Servicibilty</h2>
+                    
+                    <form class="text-center" (ngSubmit)="pincodeSubmit()" >
+                        <mat-form-field class="full-width" appearance="outline">
+                            <mat-label>Pincode</mat-label>
+                            <input 
+                            [(ngModel)]="pincodeData.pincode" name="pincode"
+                             required matInput placeholder="Enter Pincode">
+                        </mat-form-field>
+                        <div class="container" >
+                            <button mat-raised-button color="primary" type="submit">Check</button>
+                            <button style="margin-left: 20px;" mat-raised-button type="reset" color="accent">Reset</button>
+                        </div>
+                        </form>
+                    </mat-card>
+
+            </div>
+           
+
+        
+
+           
+        </div>
+    </div>
+</div>

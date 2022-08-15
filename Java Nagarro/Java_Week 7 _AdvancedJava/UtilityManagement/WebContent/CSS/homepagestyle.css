@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+.container{
+	
+	border:2px solid black;
+    text-align:center;
+}
+.logout{
+	
+	
+}
+form{
+	margin-top:10px;
+	margin-left:30px
+}
+
+h4{
+	   text-align:center;
+}
+#images{
+	 border: 5px solid black; 
+  border-radius: 5px; 
+  margin: auto; 
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+h3 {
+    text-align: center;
+    margin-top: 13%;
+}
+
+.buttons {
+    margin-left: 37em;
+    margin-top: 35px;
+}
+
+.user {
+    background-color: rgb(86, 86, 255);
+    padding: 15px 32px;
+    color: white;
+    font-family: Arial;
+    font-size: medium;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    text-decoration: none;
+}

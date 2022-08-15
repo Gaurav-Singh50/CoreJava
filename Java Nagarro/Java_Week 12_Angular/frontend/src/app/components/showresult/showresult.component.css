@@ -1,0 +1,22 @@
+a {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    font-size: larger;
+}
+
+
+.show{
+    text-align: center;
+    margin-top: 20px;
+    border: solid 2px;
+    padding: 20px;
+    background-color: #e6e6e6;
+}
+
+.left{
+    text-align: right;
+}
+.right{
+    text-align: left;
+}
