@@ -1,0 +1,8 @@
+127.0.0.1 - - [31/Jul/2022:20:50:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/Jul/2022:20:50:08 +0530] "GET /productweb/CreateProductServlet HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [31/Jul/2022:20:50:08 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [31/Jul/2022:22:44:20 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/Jul/2022:22:44:21 +0530] "GET /productweb/CreateProductServlet HTTP/1.1" 500 3492
+127.0.0.1 - - [31/Jul/2022:22:45:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/Jul/2022:22:45:27 +0530] "GET /productweb/product.html HTTP/1.1" 200 389
+0:0:0:0:0:0:0:1 - - [31/Jul/2022:22:45:56 +0530] "POST /productweb/CreateProductServlet HTTP/1.1" 500 3492
